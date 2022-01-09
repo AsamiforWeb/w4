@@ -31,7 +31,7 @@ function result() {
     newStory = newStory.replace('ボブ', name);
   }
 
-  if (document.getElementById("日本語").checked) {
+  if (document.getElementById("japanese").checked) {
     const weight = `${Math.round(300*0.0714286)} stone`;
     const temperature =  `${Math.round((94-32) * 5 / 9)} centigrade`;
     newStory = newStory.replace('94 fahrenheit', temperature);
